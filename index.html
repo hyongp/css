@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>시애틀의 잠 못이루는 밤</title>
+	<meta charest="utf-8">
+	<style>
+		body{
+			margin:0;
+		}
+		a {
+			color:darkgray;
+			text-decoration: none;
+		}
+		h1 {
+			font-size: 45px;
+			text-align: center;
+			border-bottom: 5px solid lightblue;
+			margin: 0;
+			padding:20px;
+		}
+		ol {
+			font-size: 20px;
+			border-right: 5px solid lightblue;
+			width: 150px;
+			margin: 0;
+			padding-top: 50px;
+			padding-left: 150px;
+			padding-right: 50px;
+		}
+		#grid {
+			display: grid;
+			grid-template-columns: 150px 1fr;
+		}
+		#grid ol{
+			padding-left: 33px;
+		}
+		#grid #article {
+			padding-left: 25px
+		}
+		@media(max-width: 800px) {
+			#grid{
+				display: block;
+			}
+			ol {
+				border-right: none;
+			}
+			h1 {
+				border-bottom: none;
+			}
+		}
+		.center {
+ 			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+  			width: 50%;
+			}
+		.textcenter {
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<h1><a href="index.html">시애틀의 잠 못이루는 밤</a></h1>
+
+	<div id="grid">
+		<ol>
+			<li><a href="1.html" >스타벅스 1호점 </a></li>
+			<li><a href="2.html" >스페이스니들 </a></li>
+			<li><a href="3.html" >유덥 </a></li>
+			<li><a href="1.html" >마운틴레이니어 </a></li>
+			<li><a href="2.html" >아마존 </a></li>	
+		</ol>
+		
+		<div id="picture">
+			<div id="article">
+				<h2 class="textcenter"><strong>시애틀에 가면 꼭 가야하는 관광 명소들을 소개시켜줄게</strong></h2>
+			</div>
+			<p><img src="seattle1.jpg" class="center"></p>
+		</div>
+	</div>	
+</body>
+</html>
